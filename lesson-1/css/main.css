@@ -3,6 +3,27 @@
 //  MAIN CSS FILE [ HEADER ]
 // ==========================================================================
 **/
-
+.wrapper{
+    background-color:#FDFEFE;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+  }
+.main{
+    background-color:#FBFEF2;
+    padding: 15px;
+    justify-content: flex-start;
+    flex-basis: 75%;
+ }
+.sidebar{
+    background-color:#ECF0F6;
+    border: 1px dotted 000;
+    padding: 15px;
+    justify-content: flex-end;
+    flex-basis: 25%; 
+ }
+.profilepic{
+    border-radius: 25%;
+}
 
 /* CSS FILE COMMENTS [ INLINE ] */
