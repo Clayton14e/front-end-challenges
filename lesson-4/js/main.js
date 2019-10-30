@@ -17,6 +17,7 @@
 
 console.log("This outputs into the console.");
 
+// Creating new Div element
 let newDiv = document.createElement("div");
 let main = document.getElementsByClassName("main")[0];
 newDiv.id = "new-div";
@@ -36,7 +37,7 @@ toggleButton.onclick = function(){
 }
 document.body.appendChild(toggleButton);
 
-// Additional Button
+// Additional Button to display text
 let newButton1 = document.createElement("button");
 newButton1.innerHTML = "New Button";
 newButton1.onclick = function(){
