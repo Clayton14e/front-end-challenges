@@ -23,7 +23,7 @@ newDiv.id = "new-div";
 main.appendChild(newDiv);
 newDiv.innerHTML = "the New"
 
-// let runFunction = function(){
+// Toggle Button
 let toggleButton = document.createElement("button");
 toggleButton.innerHTML = "Toggle";
 toggleButton.onclick = function(){
@@ -36,6 +36,17 @@ toggleButton.onclick = function(){
 }
 document.body.appendChild(toggleButton);
 
+// Additional Button
+let newButton1 = document.createElement("button");
+newButton1.innerHTML = "New Button";
+newButton1.onclick = function(){
+    let newText = document.createElement("p");
+    newText.innerHTML = "Thank you for viewing my profile";
+    document.body.appendChild(newText);
+}
+document.body.appendChild(newButton1);
+
+// Set Title for Website Link
 let a = document.getElementsByTagName("a")[0];
 a.setAttribute("title", "Fortini Games");
 // a.innerHTML = "New New";
