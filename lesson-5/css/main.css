@@ -3,6 +3,36 @@
 //  MAIN CSS FILE [ HEADER ]
 // ==========================================================================
 **/
-
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to top right, orange, purple); 
+}
+input{
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+#modal{
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+    height: 70%;
+    background-color: azure;
+    border-radius: 2.5%;
+}
+.logo{
+    width: 150px;
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+}
+.login{
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
 
 /* CSS FILE COMMENTS [ INLINE ] */
