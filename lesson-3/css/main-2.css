@@ -1,0 +1,43 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    display: block;
+    /* justify-content: flex-start; */
+}
+
+.div1{
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+.div2{
+    background-color: black;
+    color: white;
+    float: right;
+    clear: right;
+    /* margin-left: 20px; */
+}
+.div3{
+    background-color: black;
+    color: white;
+    float: none;
+    margin-right: 20px;
+}
+
+/* CSS FILE COMMENTS [ INLINE ] */
