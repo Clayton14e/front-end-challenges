@@ -10,6 +10,12 @@ body{
     height: 100%;
     background-image: linear-gradient(to top right, orange, purple); 
 }
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    padding-top: 50px;
+}
 input{
     margin: auto;
     margin-bottom: 50px;
@@ -27,7 +33,7 @@ input{
     width: 150px;
     margin: auto;
     display: block;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .login{
     text-align: center;
