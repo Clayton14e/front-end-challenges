@@ -32,15 +32,17 @@ input{
 .container{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
-#modal{
+/* #modal{
     margin: auto;
     margin-top: 150px;
     width: 50%;
     height: 70%;
     background-color: azure;
     border-radius: 2.5%;
-}
+} */
 #login-button{
     border-radius: 20px;
     border-style: none;
