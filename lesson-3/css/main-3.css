@@ -33,12 +33,14 @@ div{
 .div2 {
     order: 2;
     background-color: black;
-    margin-left: 20px;
+    margin-left: 100px;
+    align-self: center;
 }
 .div3 {
     order: 3;
     background-color: black;
-    margin-left: 200px;
+    margin-left: 100px;
+    align-self: flex-end;
 }
 
 /* CSS FILE COMMENTS [ INLINE ] */

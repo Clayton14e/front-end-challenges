@@ -1,0 +1,71 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE [ HEADER ]
+// ==========================================================================
+**/
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to top right, orange, purple);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color: purple;
+    padding-top: 50px;
+    margin: 0px;
+}
+input{
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: darkslategray;
+    background-color: lightgray;
+    padding: 10px;
+    border-style: none;
+    width: 180px;
+}
+/* Flex Content, Keep */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+/* #modal{
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+    height: 70%;
+    background-color: azure;
+    border-radius: 2.5%;
+} */
+#login-button{
+    border-radius: 20px;
+    border-style: none;
+    background-color: cyan;
+    color: darkslategray;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+#login-button:hover{
+    background-color: rgb(97, 182, 185);
+}
+.logo{
+    width: 150px;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+.login{
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+/* CSS FILE COMMENTS [ INLINE ] */
