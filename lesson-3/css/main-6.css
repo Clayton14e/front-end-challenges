@@ -1,0 +1,48 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    display: flex;
+    width: 650px;
+    height: 540px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+    color: white;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+}
+    
+    
+    /* display: block; */
+    /* justify-content: flex-start; */
+
+
+.div1 {
+    order: 1;
+    background-color: black;
+}
+
+.div2 {
+    order: 2;
+    background-color: black;
+    margin-right: 100px;
+    align-self: center;
+}
+.div3 {
+    order: 3;
+    background-color: black;
+    margin-right: 100px;
+    align-self: flex-end;
+}
+
+/* CSS FILE COMMENTS [ INLINE ] */
