@@ -35,14 +35,14 @@ input{
     align-content: center;
     align-items: center;
 }
-/* #modal{
+#modal{
     margin: auto;
     margin-top: 150px;
     width: 50%;
     height: 70%;
     background-color: azure;
     border-radius: 2.5%;
-} */
+}
 #login-button{
     border-radius: 20px;
     border-style: none;
@@ -52,6 +52,7 @@ input{
     width: 200px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 #login-button:hover{
     background-color: rgb(97, 182, 185);
@@ -65,7 +66,7 @@ input{
 .login{
     text-align: center;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 /* CSS FILE COMMENTS [ INLINE ] */
